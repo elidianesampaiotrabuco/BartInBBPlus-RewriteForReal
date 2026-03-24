@@ -28,7 +28,6 @@ namespace OMGITSBART
               .SetName("Bart")
               .SetEnum("SimpsonGamer")
               .SetMinMaxAudioDistance(1, 300)
-              .IgnorePlayerOnSpawn()
               .AddSpawnableRoomCategories(new RoomCategory[] { RoomCategory.Hall, RoomCategory.Class, RoomCategory.Faculty })
               .SetPoster(assetMan.Get<Texture2D>("BartPoster"), "Bart", "Omg its bart wait a minute? What the fuck bart!!!")
               .Build();
