@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace OMGITSBART
 {
-    [BepInPlugin("starrie.bbplus.omgitsbart", "Bart In BB+", "2.0.0.0")]
+    [BepInPlugin("ekrem.baldiplus.bart", "Bart In BB+", "2.0.1")]
 
     [BepInDependency("mtm101.rulerp.bbplus.baldidevapi")]
 
@@ -53,7 +53,7 @@ namespace OMGITSBART
 
         public void Awake()
         {
-            Harmony harmony = new Harmony("starrie.bbplus.omgitsbart");
+            Harmony harmony = new Harmony("ekrem.baldiplus.bart");
 
             harmony.PatchAll();
 

@@ -49,14 +49,8 @@ namespace OMGITSBART
             base.Enter();
             if (!npc.Navigator.HasDestination)
             {
-                ChangeNavigationState(new NavigationState_WanderRandom(npc, 0));
+                ChangeNavigationState(new NavigationState_WanderRandom(npc, 62));
             }
-        }
-
-        public override void DestinationEmpty()
-        {
-            base.DestinationEmpty();
-            ChangeNavigationState(new NavigationState_WanderRandom(npc, 0));
         }
     }
 }
